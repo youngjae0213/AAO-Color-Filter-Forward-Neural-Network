@@ -7,7 +7,6 @@ This repository contains a PyTorch-based deep learning model for predicting tran
 - **Input Parameters:** pore radius, pore period, top Ag thickness, AAO thickness, bottom Ag thickness  
 - **Output:** 301-point transmittance spectrum  
 - **Model:** Fully connected ANN (MLP)
-- **Optimization:** Optuna-based hyperparameter tuning  
 - **Loss Function:** MSE  
 - **Data Normalization:** StandardScaler (z-score)
 
