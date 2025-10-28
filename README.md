@@ -17,7 +17,7 @@ This repository contains a PyTorch-based deep learning model for predicting tran
 - Scatter plot of predicted vs actual transmittance  
 
 ## 📁 Project Structure
-AAO-Color-Filter-Deep-Learning/
+AAO-Color-Filter-Forward-Neural-Network/
 ├── train_model.py
 ├── dataset_example.xlsx
 ├── results/
@@ -25,3 +25,4 @@ AAO-Color-Filter-Deep-Learning/
 │ ├── predicted_vs_actual.png
 │ └── scatter_all.png
 └── README.md
+
