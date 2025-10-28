@@ -18,11 +18,11 @@ This repository contains a PyTorch-based deep learning model for predicting tran
 
 ## 📁 Project Structure
 AAO-Color-Filter-Forward-Neural-Network/
-├── train_model.py
-├── dataset_example.xlsx
-├── results/
-│ ├── RMSE_curve.png
-│ ├── predicted_vs_actual.png
-│ └── scatter_all.png
-└── README.md
+- train_model.py
+- dataset_example.xlsx
+- results/
+  - RMSE_curve.png
+  - predicted_vs_actual.png
+  - scatter_all.png
+-README.md
 
