@@ -6,7 +6,7 @@ This repository contains a PyTorch-based deep learning model for predicting tran
 - **Goal:** Predict transmittance spectra (400–700 nm) of porous Al₂O₃ Fabry–Perot structures using Multi-Layer Perceptron(MLP).
 - **Input Parameters:** pore radius, pore period, top Ag thickness, AAO thickness, bottom Ag thickness  
 - **Output:** 301-point transmittance spectrum  
-- **Model:** 5-hidden-layer fully connected ANN (PyTorch)  
+- **Model:** Fully connected ANN (MLP)
 - **Optimization:** Optuna-based hyperparameter tuning  
 - **Loss Function:** MSE  
 - **Data Normalization:** StandardScaler (z-score)
