@@ -163,7 +163,7 @@ df_rmse.to_excel('1_rmse_vs_epoch.xlsx', index=False)
 
 
 # 예측 VS 실제 스펙트럼 엑셀 출력
-cols = df.columns[num:]
+cols = df.columns[input_param:]
 
 wavelengths = pd.to_numeric(cols.str.replace('T_', '', regex=False), errors='coerce').to_numpy()
 if np.any(np.isnan(wavelengths)) or len(wavelengths) != 301:
@@ -226,4 +226,5 @@ plt.xlim([0, 1])
 plt.ylim([0, 1])
 plt.tight_layout()
 plt.show()
+
 
