@@ -23,5 +23,3 @@ AAO-Color-Filter-Forward-Neural-Network/
   - RMSE_curve.png
   - predicted_vs_actual.png
   - scatter_all.png
--README.md
-
